@@ -1,0 +1,39 @@
+.navbar {
+    display: grid;
+    padding-left: 20px;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+
+
+    border-bottom: solid black;
+    border-bottom-width: 0.5px;
+
+    position: sticky; 
+    z-index: 9999;
+}
+
+
+img{
+    width: 100%;
+}
+
+.nav-linkContainer {
+    display: flex;
+    padding-left: 8px;
+}
+
+.nav-linkContainer a {
+    color: #001A76; /* Adjust the color as needed */
+    text-decoration: none;
+    padding: 14px 35px;
+    text-align: center;
+    font-weight: 700;
+    font-size: small;
+    font-family: "Hanken Grotesk";
+}
+
+.nav-linkContainer a:hover{
+    color: white;
+}

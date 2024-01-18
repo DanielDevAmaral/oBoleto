@@ -1,0 +1,44 @@
+.dropbtn {
+  border: none;
+  font-size: 17px;
+  padding: 17px;
+  color: #001A76;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block; /* Fix the typo in the class name */
+}
+
+.dropdown-content {
+  display: none;
+  background: rgba(66, 66, 66, 0.07);
+  border-radius: 20px;
+  min-width: 160px;
+  position: absolute;
+  z-index: 99;
+}
+
+.dropdown-content a {
+  display: flex;
+  color: #000;
+  text-decoration: none;
+  padding: 17px;
+  font-size: 18px;
+  z-index: 99;
+}
+
+.dropdown-content a:hover {
+  background: rgba(0, 26, 118, 1);
+  border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: #F7AE2B;
+}
