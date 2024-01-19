@@ -1,4 +1,7 @@
-
+.logoBoletim{
+    width: 500px;
+    padding: 25px 25px 30px 25px;
+}
 
 .headline{
     font-size: 50px;
@@ -24,16 +27,20 @@
 .text-container{
     grid-column: 1;
     grid-row: 1;
-    justify-content: center;
-    align-content: center;
+    justify-content: left;
+    align-content: left;
     padding-left: 5%;
-    margin: 0 auto;
     font-family: "Hanken Grotesk";
     color: #001A76;
 }
 .text-container h3{
     font-size: 35px;
-    margin: 20px 0px 20px 0px;
+    padding-left: 25px;
+    margin-bottom: 17px;
+    margin-top: 10px;
+}
+.text-container p{
+    padding-left: 25px;
 }
 .buttom-join{
     grid-column: 1;

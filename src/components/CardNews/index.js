@@ -3,6 +3,7 @@ const CardNews = (props) => {
   return (
     <>
       <div className="content-container">
+        <img className="logoBoletim" src={props.logoBoletim} alt="oBoletim/"/>
         <div className="hero-container">
           <div className="text-container">
             <h3>{props.headline}</h3>

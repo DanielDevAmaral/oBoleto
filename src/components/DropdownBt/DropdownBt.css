@@ -14,7 +14,7 @@
 
 .dropdown-content {
   display: none;
-  background: rgba(66, 66, 66, 0.07);
+  background: #001A76;
   border-radius: 20px;
   min-width: 160px;
   position: absolute;
@@ -23,7 +23,7 @@
 
 .dropdown-content a {
   display: flex;
-  color: #000;
+  color: white;
   text-decoration: none;
   padding: 17px;
   font-size: 18px;
@@ -31,7 +31,7 @@
 }
 
 .dropdown-content a:hover {
-  background: rgba(0, 26, 118, 1);
+  background: rgba(255, 255, 255, 0.4);
   border-radius: 20px;
 }
 
