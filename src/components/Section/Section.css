@@ -1,0 +1,15 @@
+.general{
+    background-color: #F7AE2B;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.headline{
+    display: flex;
+    color: white;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}

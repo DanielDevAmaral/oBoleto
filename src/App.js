@@ -1,20 +1,34 @@
 import React from "react";
+import './App.css'
 import Navbar from "./components/Navbar";
-import CardNews from "./components/CardNews";
-import leanNews from "./components/images/hero.jpg";
-import Boletim from "./components/images/LogoBoletim.png";
+import CardNews from "./components/CardNews/index.js";
+import logoBoletim from "./components/images/LogoBoletim.png";
+import newsone from "./components/images/hero.jpg";
+import Section from "./components/Section";
+import SectionAcompanhamento from "./components/SectionAcompanhamento"
+
 function App() {
+
+  const itensAndThais = ["teste", "uhum", "desq"]
+  const itensBckThais = ["1213", "3213", "9999"]
+
   return (
     <>
       <Navbar />
-      <div className="deep">
       <CardNews
-        logoBoletim={Boletim}
-        headline="Projeto lean decola agora com um texto mais longo para ver o que a acontece"
-        text="projeto manda milhares the base mas se vocçe for parar para pensar será que ir the base é the fato ruim? por qyue no lol a gente vai the base para recuperar as forças (quando se trata de uma ida de base vonlutária) tá me entendendo?"
-        logo={leanNews}
-        logodes="Lean"
+        logoBoletim={logoBoletim}
+        headline="Uma noticia mirabolante"
+        text="uma noticia realmente fantastica"
+        logo={newsone}
       />
+      <Section sector="Projetos" section="Acompanhamento" />
+      <div className="teste">
+        <Section sector="Projetos" section="Resultados" />
+        <SectionAcompanhamento
+        itens={itensAndThais}
+        itensbck={itensBckThais}
+        
+        />
       </div>
     </>
   );

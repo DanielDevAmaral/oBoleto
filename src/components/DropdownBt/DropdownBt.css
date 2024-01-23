@@ -14,11 +14,11 @@
 
 .dropdown-content {
   display: none;
-  background: #001A76;
-  border-radius: 20px;
+  background: #F7AE2B;
+  border-radius: 10px;
   min-width: 160px;
   position: absolute;
-  z-index: 99;
+  z-index: 1;
 }
 
 .dropdown-content a {
@@ -32,7 +32,7 @@
 
 .dropdown-content a:hover {
   background: rgba(255, 255, 255, 0.4);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .dropdown:hover .dropdown-content {

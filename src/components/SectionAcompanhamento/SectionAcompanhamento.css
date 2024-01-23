@@ -1,0 +1,28 @@
+.general{
+    background-color: #F7AE2B;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.headline{
+    display: flex;
+    color: white;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.andamento{
+    grid-column: 1/2;
+}
+
+.backlog{
+    grid-column: 2/3;
+}
